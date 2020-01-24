@@ -10,7 +10,7 @@ sudo nano /lib/systemd/system/lcd.service<br>
 <br>
  [Service]<br>
  Type=idle<br>
- ExecStart=/usr/bin/python3 /home/ubuntu/lcd/l1.py<br>
+ ExecStart=/usr/bin/python /home/ubuntu/lcd/l1.py<br>
  StandardOutput=syslog<br>
  StandardError=syslog<br>
  SyslogIdentifier=ServiceScript<br>
